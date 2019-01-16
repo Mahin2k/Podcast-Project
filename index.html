@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Podcast Project</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+<link rel="stylesheet" href="pagePiling.js-master/dist/jquery.pagepiling.css"/>
+<script src="node_modules\phaser-ce\build\phaser.js"></script>
+<script src="states/boot.js"></script>
+<script src="states/preload.js"></script>
+<script src="states/main_menu.js"></script>
+<script src="states/app.js"></script>
+<script src="states/winner.js"></script>
+<script src="states/controls.js"></script>
+<script src="states/gameover.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript" src="parallax.js-1.5.0/parallax.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="pagePiling.js-master/dist/jquery.pagepiling.js"></script>
+<link rel="stylesheet" href="css/index.css">
+</head>
+
+<style media="screen">
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+  </style>
+
+<body>
+
+<div class="podcasts">
+<div class="section">
+  <div class="first-page">
+    <!-- <img src="images/microphone.jpg" /> -->
+    <div class="blend-text">
+      <h1>MoonJins RadioLab</h1>
+      <p>Here to Inspire you and expand your horizon through stories and experiences.</p>
+    </div>
+
+
+  </div>
+</div>
+<div class="section">
+
+  <div class="station">
+    <a href="https://www.wnycstudios.org/shows/radiolab" target="_blank"><h1>WNYC STUDIOS</h1></a>
+    <p><span class="bold">Mission:</span> To make the mind more curious, the heart more open and the soul more joyful through excellent audio programming that is deeply rooted in New York.</p>
+    <p><span class="bold">Hosts:</span> Jad Abumrad, Robert Krulwich</p>
+    <p><span class="bold">About:</span> Since 2002, Radiolab has been devoted to investigating a strange world. Created by Jad Abumrad and hosted by Jad and Robert Krulwich, Radiolab has won Peabody Awards, a National Academies Communication Award “for their investigative use of radio to make science accessible to broad audiences,” and in 2011 Abumrad received the MacArthur Genius grant. The show has an archive of hundreds of episodes and has toured in sold out shows nationwide.</p>
+  </div>
+
+      <article>
+        <img src="images/Mercury-Theatre-Radio-Rehearsal-1938.jpg"/>
+        <div>
+          <h2>War of the Worlds</h2>
+          <p class="description">The war of the worlds is a science fiction novel by H.G. Wells where aliens (namely martians) invade earth. This podcast narrated by Jad however, is about when Orson Welles decided lots of people actually believing that martians were invading New Jersey...</p>
+          <button onclick="window.location.href='WOTW/'">Listen</button>
+        </div>
+      </article>
+
+
+    <article>
+      <img src="images/s127e007210_1.jpg"/>
+      <div>
+        <h2>Dark Side Of The Earth</h2>
+        <p class="description"> This podcast is the idea of the pitch black darkness in space. Astronauts aboard the ISS can choose a person to talk to on earth. Mark Vande Hei, an astronaut chose WNYC Studios radioLab. This story was narrated by Mark Vande Hei...</p>
+        <button onclick="window.location.href='DSOTE/'">Listen</button>
+      </div>
+    </article>
+
+      <article>
+      <img src="images/mathieum_m.jpg"/>
+      <div>
+        <h2>Lose Lose</h2>
+        <p class="description"> This podcast is about 2 women’s doubles teams in badminton fighting to lose. Regardless of the sport you play, your objective is supposed to be to win. That made me wonder what sports would look like if everyone played to lose. In this case both these teams tried to lose… to win....</p>
+        <button onclick="window.location.href='LL/'">Listen</button>
+      </div>
+    </article>
+
+</div>
+<div class="section">
+
+  <div class="station">
+        <a href="https://www.missedinhistory.com/" target="_blank"><h1>Stuff You Missed In History Class</h1></a>
+        <p><span class="bold">Hosts:</span> Tracy V. Wilson, Holly Frey</p>
+        <p><span class="bold">About:</span> Tracy V. Wilson has loved stories for as long as she can remember, and her focus since 2013 has been stories about the past. She joined HowStuffWorks as a staff writer in 2005, and she spent her first few years at the site destroying gadgets and mining patents, papers and interviews to figure out what makes things tick. In 2007, she took on the role of hiring and training HowStuffWorks’ new writers and editors. She became site director in 2010 and editorial director in 2014. Tracy cohosted the PopStuff pop culture podcast with Holly Frey; the pair now cohosts Stuff You Missed in History Class.
+     <p>Holly Frey is cohost of Stuff You Missed in History Class, and she's also an executive producer for the HowStuffWorks podcast network. Her true historical passion is fashion from all eras. She lives in Atlanta with her husband and a small herd of cats. When she’s not obsessing over comma placement or talking about the past, she’s sewing, running, watching television, visiting a Disney park, rescuing animals, going to the movies, traipsing around town in a ridiculous costume or obsessing over delicious food. Sometimes, she does several of these things at once.</p>
+  </div>
+
+      <article>
+      <img src="images/nuclear-close-calls-p-orig.jpg"/>
+      <div>
+        <h2>Three Nuclear Close Calls</h2>
+        <p class="description">There have been many moments in history when the world came perilously close to a full-scale nuclear war, due to false alarms or miscommunication. One such moment is the only known time that a head of state has activated their nuclear briefcase.
+        <br /><br />
+        Our listener mail is from Julie and touches on Acadian history and its parallels to Jamaica's Maroon Wars.</p>
+        <button onclick="window.location.href='TNCC/'">Listen</button>
+      </div>
+      </article>
+
+      <article>
+      <img src="images/hokusai-wave.jpg"/>
+      <div>
+        <h2>Hokusai</h2>
+        <p class="description">Hokusai lived during a time when there wasn't a lot of contact between Japan and the West. But even so, he drew influence form Western art, and Western art was greatly influenced by his own work.</p>
+        <button onclick="window.location.href='H/'" >Listen</button>
+      </div>
+      </article>
+
+      <article>
+      <img src="images/samurais-code.jpg"/>
+      <div>
+        <h2>The 47 Ronin and the Samurai's Code</h2>
+        <p class="description">Historically, the samurai were Japanese warriors famous for their loyalty to their feudal lords and adherence to a strict code of honor. Tune in to learn more about the samurai and the legendary tale of the 47 Ronin.</p>
+        <button onclick="window.location.href='T4RSC/'">Listen</button>
+      </div>
+      </article>
+</div>
+<div class="section">
+  <center>
+    <div id="game-area"></div>
+  </center>
+
+
+</div>
+</div>
+
+
+</body>
+<script>
+
+$(document).ready(function() {
+	$('.podcasts').pagepiling();
+});
+
+// var apodcasts = $('.Apodcasts')
+// var agame = $('.Agame')
+//
+// var game = $('#game-area')
+// var podcasts = $('.podcasts')
+//
+// game.hide()
+// $(document).ready(function(){
+//   apodcasts.addClass('active')
+//   apodcasts.css('color', 'blue')
+// })
+// apodcasts.on('click',function(){
+//   apodcasts.css('color', 'blue')
+//   apodcasts.addClass('active')
+//   podcasts.show()
+//   $('body, html').scrollTop('1000', 1000)
+//   if(agame.hasClass('active')){
+//     agame.removeClass('active')
+//     agame.css('color', 'gray')
+//     game.hide()
+//   }
+//
+// })
+// agame.on('click', function(){
+//   agame.css('color', 'blue')
+//   agame.addClass('active')
+//   game.show()
+//   $('body, html').scrollTop('1000', 1000)
+//   if(apodcasts.hasClass('active')){
+//     apodcasts.removeClass('active')
+//     apodcasts.css('color', 'gray')
+//     podcasts.hide()
+//   }
+// })
+
+</script>
+
+</html>

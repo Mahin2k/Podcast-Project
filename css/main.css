@@ -1,0 +1,48 @@
+body{
+  /* background-color: #D1DEF4; */
+  background-color: white;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+audio{
+  width:80%;
+  color: white;
+  padding-top: 2%;
+
+}
+
+#container{
+  margin: 2%;
+  background-color: white;
+  align-items: center;
+  width: 60%;
+  border: 2px solid white;
+  border-radius: 20px;
+  position: absolute;
+  left: 15%;
+}
+#container img{
+  margin-top: 5%;
+  width: 80%;
+  border: 2px solid blue;
+}
+#container h2{
+  font-size: 35px;
+  font-weight: 600;
+  color: blue;
+  padding-left: 15%;
+}
+#container h4{
+  color: gray;
+  padding-left: 15%;
+}
+#container p{
+  width: 70%;
+  color: gray;
+  text-align: justify;
+  padding-left: 15%;
+  padding: 60px;
+  font-size: 22px;
+}
